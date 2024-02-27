@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="domian">
+            <header>
+                <h2>BETA-FLIGHT</h2>
+            </header>
+            <nav>
+                <button onclick="toggleNav()">Toggle Navigation</button>
+                <a href="#3">Home</a>
+                <a href="#Destination">Destination</a>
+                <a href="#">About </a>
+                <a href="#Experience">Expriences</a>
+                <!-- <a href="#">English</a> -->
+            </nav>
+            <!-- <button>
+                <a href="#">Sign Up</a>
+            </button> -->
+        </div>
+        <div class="info">
+            <div class="write-up">
+                <h1><b>See de whole world <br> with us</b></h1>
+                <p>Exprience beta travel wey cheap with BETA-FLIGHT. <br> 
+                    Your number one ticket to world best places.</p>
+                <button>
+                    <a href="#">Book now</a>
+                </button>
+            </div>
+            <div class="imge">
+                <img src="travel 1.png" alt="photo">
+            </div>
+        </div>
+    </div>
+    <div class="contianer2" id="Destination">
+        <div class="pl">
+            <h1><b>Places wey Popular</b></h1>
+        </div>
+        <div class="icon1">
+            <div class="syd">
+                <img src="australia.jpg" alt="photo">
+                <h3>Opera House</h3>
+                <p>Sydney, Australia</p>
+                <div class="price">
+                    <p><b>$450</b> <span>/ person</span></p>
+                    <button><a href="#">Book</a></button>
+                </div>
+            </div>
+            <div class="syd1">
+                <img src="brazil.jpg" alt="photo">
+                <h3>Copacabana Beach</h3>
+                <p>Rio de Janeiro, Brazil</p>
+                <div class="price">
+                    <p><b>$250</b> <span>/ person</span></p>
+                    <button><a href="#">Book</a></button>
+                </div>
+            </div>
+            <div class="syd2">
+                <img src="london.jpg" alt="photo">
+                <h3>Big Ben</h3>
+                <p>London, England</p>
+                <div class="price">
+                   <p><b>$500</b> <span>/ person</span></p>
+                    <button><a href="#">Book</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="icon2">
+            <div class="col">
+                <img src="rome.jpg" alt="photo">
+                <h3>Colosseum</h3>
+                <p>Rome, Italy</p>
+                <div class="prices">
+                    <p><b>$310</b> <span>/ person</span></p>
+                    <button><a href="#">Book</a></button>
+                </div>
+            </div>
+            <div class="col1">
+                <img src="thailand.jpg" alt="photo">
+                <h3>Siam park City</h3>
+                <p>Bangkok, Thailand</p>
+                <div class="prices">
+                    <p><b>$170</b> <span>/ person</span></p>
+                    <button><a href="#">Book</a></button>
+                </div>
+            </div>
+            <div class="col2">
+                <img src="tokyo.jpg" alt="photo">
+                <h3>Odaiba Beach Park</h3>
+                <p>Tokyo, Japan</p>
+                <div class="prices">
+                    <p><b>$200</b> <span>/ person</span></p>
+                    <button><a href="#">Book</a></button>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="contianer3" id="Experience">
+        <div class="exp-img">
+            <img src="experience-img.png" alt="photo">
+        </div>
+        <div class="exp-write-up">
+            <h1>With Our Experience <br>
+                We go Serve You well.</h1>
+            <p>Welcome to our travel agency! We be team of passionate <br> travelers wey believe say to travel around the world na one <br> of the most rewarding exprience for life.</p>
+            <p>For our agency, we dey put our customers first. We <br> know say travel dey stressful, na why we work hard to <br> make the planning and booking process easy. </p>
+            <p>We thank you as choose our travel agency.</p>
+            <div class="exp-icon">
+                <div>
+                    <h1>30+</h1>
+                    <p>Years <br> Exprience</p>
+                </div>
+                <div>
+                    <h1>620+</h1>
+                    <p>Destination <br> Collaboration</p>
+                </div>
+                <div>
+                    <h1>70k+</h1>
+                    <p>Happy <br> Coustomer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function toggleNav() {
+        const nav = document.querySelector('nav');
+        nav.style.display = (nav.style.display === 'block' || nav.style.display === '') ? 'none' : 'block';
+    }
+    </script>
+</html>
